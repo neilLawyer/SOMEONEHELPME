@@ -1,0 +1,92 @@
+{
+  "Header": {
+    "title": "Welcome to Launchpad Sites",
+    "paragraph": "At Launchpad Sites, we create stunning, custom websites for restaurants—absolutely free! Enhance your visibility, attract more customers, and showcase your delicious menu with ease. Get started today and watch your business thrive!"
+  },
+  "About": {
+    "paragraph": "At Launchpad Sites, we’re a group of high schoolers from the Academy for Math, Science, and Engineering, dedicated to creating free websites for local restaurants and businesses. Our mission is to empower fellow entrepreneurs by helping them establish a strong online presence, connecting them with customers, and enabling them to thrive in a digital world. With a focus on user-friendly designs and tailored solutions, we’re committed to making quality web services accessible to all. Let us help you bring your vision to life!",
+    "Why": [
+      "Free Services",
+      "Tailored Solutions",
+      "User-Friendly Designs",
+      "Local Expertise"
+    ],
+    "Why2": [
+      "Responsive Support",
+      "SEO Optimization",
+      "Fast Turnaround",
+      "Empowering Communities"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Website Design",
+      "text": "Custom designs tailored to reflect your brand and engage your audience"
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "E-commerce Integration",
+      "text": "Set up online stores to help businesses sell products directly from their websites."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Mobile Optimization",
+      "text": "Ensure websites are fully responsive and look great on all devices"
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Search Engine Optimization (SEO)",
+      "text": "Improve visibility on search engines to attract more customers"
+    },
+    {
+      "icon": "fa fa-facebook",
+      "name": "Social Media Integration",
+      "text": "Connect websites with social media platforms for better engagement and reach"
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Website Maintenance",
+      "text": "Offer ongoing support and updates to keep websites secure and up to date."
+    }
+  ],
+
+  "Team": [
+    {
+      "name": "Neil Kumar",
+      "job": "Co-Founder"
+    },
+    {
+      "name": "Charan Dangeti",
+      "job": "Co-Founder"
+    }
+  ],
+  "Contact": {
+    "phone": "+1 862 391 0185",
+    "phone2": "+1 925 384 9399",
+    "email": "neilkumar2028@gmail.com",
+    "email2": "charandangeti7@gmail.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Mobile Friendly",
+      "text": "All of our websites are desgined to be used on various different devices, and we make sure that every website is compatible regadrless of it's screen size."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Constantly Updating",
+      "text": "We also ensure that we keep updating our websites if there are any changes or updates that need to be made."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "User friendly",
+      "text": "All our websites are tested with some of our friends before deplyoment to ensure that our clients get the best quality."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Speed",
+      "text": "We make our websites very quick, as we are students with lots of time on our hands, and are flexible."
+    }
+  ]
+}
