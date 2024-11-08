@@ -171,88 +171,63 @@ hr {
   background-color: #608dfd;
 }
 
-/* Header Section */
-/* Hero Section Adjustments for Mobile */
-@media (max-width: 768px) {
-  .intro h1 {
-    font-size: 48px; /* Adjust the size of the heading */
-    margin-bottom: 10px; /* Reduce margin for better spacing */
-  }
-  .intro p {
-    font-size: 18px; /* Reduce paragraph font size for mobile */
-  }
-  header .intro-text {
-    padding-top: 150px;  /* Adjust padding for the intro section */
-    padding-bottom: 100px; /* Reduce padding for mobile */
-  }
-}
-.intro {
-  display: table;
-  width: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
-}
-
+/* Hero Section Adjustments */
 .intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 0;
+  font-size: 70px; /* Adjusted size */
   margin-bottom: 10px;
 }
 
-.intro h1 span {
-  font-weight: 800;
-  color: #5ca9fb;
-}
-
 .intro p {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 30px;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  font-size: 20px; /* Slightly reduced font size */
 }
 
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
-  text-align: center;
+  padding-top: 200px; /* Reduced padding */
+  padding-bottom: 100px; /* Reduced padding */
 }
 
-/* Features Section - Flexbox Layout */
-#features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;  /* Adjust alignment */
-  padding: 50px 0;
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  .intro p {
+    font-size: 18px;
+  }
+  header .intro-text {
+    padding-top: 150px;  /* Adjust padding for mobile */
+    padding-bottom: 100px;
+  }
 }
 
 #features .feature {
   flex: 1 1 45%;  /* Default: 45% width */
   margin: 15px;
   text-align: center;
+  transition: transform 0.3s ease; /* Add transition */
+}
+
+/* Stagger effect */
+#features .feature:nth-child(odd) {
+  transform: translateY(20px); /* Move odd elements down */
+}
+
+#features .feature:nth-child(even) {
+  transform: translateY(-20px); /* Move even elements up */
+}
+
+/* Add some hover effect to give interactivity */
+#features .feature:hover {
+  transform: translateY(0); /* Reset to original position on hover */
 }
 
 @media (max-width: 768px) {
   #features .feature {
-    flex: 1 1 100%;  /* On small screens, make each feature take up full width */
+    flex: 1 1 100%;  /* Full width on mobile */
     margin: 15px 0;
+    transform: translateY(0); /* No stagger effect on mobile */
   }
 }
-
 /* About Section */
 #about {
   padding: 100px 0;
