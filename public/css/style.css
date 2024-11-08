@@ -206,7 +206,7 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
-  width: 60px;
+  width: 100%;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
@@ -261,7 +261,7 @@ header .intro-text {
   content: "";
   background: rgba(255, 255, 255, 0.3);
   height: 4px;
-  width: 60px;
+  width: 100%;
   bottom: 0;
   margin-left: -30px;
   left: 50%;
@@ -351,14 +351,14 @@ header .intro-text {
   content: "";
   background: rgba(255, 255, 255, 0.3);
   height: 4px;
-  width: 60px;
+  width: 100%;
   bottom: 0;
   margin-left: -30px;
   left: 50%;
 }
 #services i.fa {
   font-size: 42px;
-  width: 120px;
+  width: 100%;
   height: 120px;
   padding: 40px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
@@ -447,7 +447,7 @@ header .intro-text {
 .testimonial-image,
 .testimonial-image img {
   display: block;
-  width: 64px;
+  width: 100%;
   height: 64px;
   border-radius: 50%;
 }
@@ -474,7 +474,7 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 100%;
 }
 #team .thumbnail {
   background: transparent;
@@ -507,7 +507,7 @@ header .intro-text {
   content: "";
   background: rgba(255, 255, 255, 0.3);
   height: 4px;
-  width: 60px;
+  width: 100%;
   bottom: 0;
   left: 30px;
 }
@@ -598,7 +598,7 @@ label {
 }
 #contact .social i.fa {
   font-size: 22px;
-  width: 48px;
+  width: 100%;
   height: 48px;
   padding: 12px 0;
   border: 2px solid #fff;
