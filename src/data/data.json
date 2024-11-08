@@ -83,5 +83,10 @@
       "title": "User friendly",
       "text": "All our websites are tested with some of our friends before deplyoment to ensure that our clients get the best quality."
     }
+    {
+      "icon": "fa fa-magic",
+      "title": "Speed",
+      "text": "We ensure that our websites are built quickly and efficiently."
+    }
   ]
 }
