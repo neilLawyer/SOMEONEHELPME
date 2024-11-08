@@ -1,18 +1,76 @@
-@media screen and (max-width: 400px) {
+/* Keep your existing styles for larger screens */
+
+#features {
+  padding: 30px;
+  background-color: #f5f5f5;
+  /* Other existing styles */
+}
+
+#about {
+  margin-top: 50px;
+  /* Other existing styles */
+}
+
+#services {
+  display: flex;
+  justify-content: space-around;
+  /* Other existing styles */
+}
+
+#services .service-item {
+  width: 30%;
+  /* Other existing styles */
+}
+
+/* Make changes only for small screens (mobile) below this point */
+
+@media screen and (max-width: 768px) {
+  /* Adjust layout for tablets */
   #features {
     padding: 20px;
-    width: 111%;
-  }
-  #about,
-  #services,
-  #testimonials,
-  #team,
-  #contact,
-  #footer {
-    width: 111%;
   }
 
-  #portfolio {
-    width: 110%;
+  #services {
+    display: block;
+    /* Stack service items vertically for smaller screens */
+  }
+
+  #services .service-item {
+    width: 100%;
+    margin-bottom: 20px; /* Add space between service items */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* For very small screens (mobile) */
+  #features {
+    padding: 15px;
+  }
+
+  #about, #services, #testimonials, #team, #contact, #footer {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  h1, h2, h3, h4 {
+    font-size: 1.2rem; /* Smaller font sizes on small screens */
+  }
+
+  p {
+    font-size: 0.9rem; /* Adjust paragraph font size for small screens */
+  }
+
+  #services .service-item {
+    width: 100%; /* Full width for service items on mobile */
+  }
+
+  /* Additional customizations for small screens */
+  .navbar {
+    padding: 10px;
+  }
+
+  .footer {
+    font-size: 0.8rem;
   }
 }
